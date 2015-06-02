@@ -5,7 +5,7 @@ import os
 import logging
 from datetime import datetime
 from datetime import timedelta
-from ConfigParser import SafeConfigParser
+from configparser import SafeConfigParser
 
 from suds import WebFault
 from suds.client import Client

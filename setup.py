@@ -18,6 +18,7 @@ setup(
     author_email=zuora.__email__,
     url=zuora.__url__,
 
+    dependency_links=['https://bitbucket.org/markbaas/httplib2/get/088f44a.tar.gz#egg=httplib2-0.8'],
     packages=find_packages(),
     classifiers=[
         'Environment :: Web Environment',
@@ -29,6 +30,6 @@ setup(
 
     license=zuora.__license__,
     zip_safe=False,
-    install_requires=['suds>=0.4',
-                      'httplib2>=0.8']
+    install_requires=['suds-jurko>=0.4',
+                      'httplib2<=0.9']
 )
