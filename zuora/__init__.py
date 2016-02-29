@@ -1,7 +1,7 @@
 """
 Zuora Client SOAP API
 """
-__version__ = '1.1'
+__version__ = '1.0python3'
 __license__ = 'BSD License'
 
 __author__ = 'Fantomas42'
